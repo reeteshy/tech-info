@@ -47,6 +47,14 @@ React tutorial in Hindi #44 Controlled Component
 React tutorial in Hindi #45 Uncontrolled Component  
 React tutorial in Hindi #46 Hight order component (HOC)  
 React tutorial in Hindi - useMemo vs useEffect | difference in useEffect and useMemo  
+React Lazy Loading  ( const CompName = (()=> import('path'))) <Suspense fallaback={<p>test</p>}> <CompName /></Suspense>
+Server side randering
+Reconcilation
+portals 
+error boundaries
+React Mixins (higher-order components or decorators ) like
+
+51, 54- 56, 70, 
   
 ## React Router DOM  
   
@@ -135,3 +143,11 @@ React tutorial in Hindi #60 Context api with Hooks | useContext
   
 ## React Plugin  
   
+## React SSR
+1. https://github.com/anil-sidhu/react-ssr-with-routing
+
+## linting utility
+Linting is the automated checking of your source code for programmatic and stylistic errors. This is done by using a lint tool (otherwise known as linter). A lint tool is a basic static code analyzer. The term linting originally comes from a Unix utility for C.
+
+## ESLint
+ESLint is a popular open-source JavaScript linting utility. It analyzes your code for potential errors, and enforces coding standards while improving code quality. It can also help you as a developer to identify and fix common mistakes, use best practices, and maintain consistency across your codebase.

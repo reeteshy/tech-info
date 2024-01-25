@@ -1,0 +1,15 @@
+In 1995 there was very populer web browser Netscpae nevigater. This company thought to develop a new programming language to add interatctivity in web pages.That time
+Branden eich was working for netscape nevigator. He develop a new programming language with in 10m days. That is called Mocha -> livescript. Due to not having more
+popularity the changes their name javascript as per java because that time it was very famous.
+Microsoft develop a new programmning lanugage jscript.
+
+If anyone wants   to develop a new programnming language then they needs to folow ECMA standard.
+1997 - ES1
+2009 - ES5 ( Added new features )
+2015 - ES6 ( Biggest update in history ) official name ES2015
+
+TC39 communityt decided to release annualy.
+
+*Javascript in backword compatible but not forword compatible
+Babel ->? Used to transpile the code in new to old browser support
+
