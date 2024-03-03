@@ -1,6 +1,5 @@
 ## Referance Channals for tutorial
 
-
 <a hreff="https://www.youtube.com/watch?v=vz1RlUyrc3w&list=PLu71SKxNbfoDqgPchmvIsL4hTnJIrtige">React, Redux ToolKit - </a><br/>
 <a hreff="https://www.youtube.com/watch?v=IT8OH9wE8M8&list=PL8p2I9GklV46zcfphaPD9xA0NhU2AKeCR">React Interview Question - </a><br/>
 <a hreff="https://www.youtube.com/watch?v=xntMzZ5S1N0&list=PL8p2I9GklV47ZpFC9sNHTXwJRgwwzdkNG">Jest - </a><br/>
@@ -59,3 +58,6 @@ start Transition<br/>
 npx comes with npm 5.2+ <br/>
 Application Build tools ( React Vite, CRA, Next, T3 Sta<br/> )
 
+npm init -y  //to create default package.json
+Next js should be node 18.17 version
+Good to know: Although you can use both routers in the same project, routes in app will be prioritized over pages. We recommend using only one router in your new project to avoid confusion.
