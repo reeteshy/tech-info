@@ -38,7 +38,7 @@
 ####  discard the changes from top of stash stack
 - git stash drop
 
-## BRANCH & MERGE
+# BRANCH & MERGE
 ####  list your branches. a * will appear next to the currently active branch
 - git branch
 ####  create a new branch at the current commit
@@ -47,8 +47,10 @@
 - git checkout
 ####  merge the specified branch’s history into the current one
 - git merge [branch]
+#### This command will create a branch locally. To push the new branch into the remote repository
+- git push -u <remote> <branch-name>
 
-## Share and Update 
+# Share and Update 
 #### add a git URL as an alias
 - git remote add [alias] [url]
 #### fetch down all the branches from that Git remote
@@ -63,3 +65,6 @@
 - git branch -m old-name new-name
 #### Update the commit message
 - git commit --amend -m "an updated commit message"
+
+# Deleting Branch
+- git branch -d <branch-name>
