@@ -77,3 +77,15 @@
 
 # Deleting Branch
 - git branch -d [branch-name]
+
+# Git Merge and Rebase
+- Main A -> B -> C -> D
+- Feature -  E -> F
+- Merge A-> B-> C -> D ->E ->F ->G (G -> one extra commit for merge)
+- Rebase  A-> B-> C -> D ->E ->F
+
+# Git fetch and Pull
+- Fetch -> fetch show us the notification that is there any update is available on remote if branch is up to date the nothing will show on 'git fetch' cmd ( After taking fethc need to merge the changes )
+- Pull -> It will take the change and merge with it
+
+# .gitkeep -- create track of empty flder create a file  inside that folder
