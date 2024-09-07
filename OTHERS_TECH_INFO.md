@@ -61,3 +61,5 @@ Application Build tools ( React Vite, CRA, Next, T3 Sta<br/> )
 npm init -y  //to create default package.json
 Next js should be node 18.17 version
 Good to know: Although you can use both routers in the same project, routes in app will be prioritized over pages. We recommend using only one router in your new project to avoid confusion.
+
+## Webpack Full Info https://www.freecodecamp.org/news/creating-a-production-ready-webpack-4-config-from-scratch/

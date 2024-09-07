@@ -1,3 +1,4 @@
+## GIT HUM USED COMMAND (https://static.javatpoint.com/tutorial/git/download/Git%20Cheat%20Sheet.pdf)
 
 # Get git config info
 
@@ -13,6 +14,9 @@
 - git init
 - git clone
 
+# Add Origin
+- git remote add origin [branch-name]
+
 # STAGE & SNAPSHOT
 - git status
 - git add
@@ -23,7 +27,6 @@
 # Git log and diff
 
 - git log --oneline
-
 - git diff
 - git diff --staged
 
@@ -37,6 +40,12 @@
 - git stash pop
 ####  discard the changes from top of stash stack
 - git stash drop
+#### Saving stashes with a message
+- git stash save "<Stashing Message>"
+#### Check the stored stashes
+- $ git stash apply
+#### Stash work on a separate branch
+- $ git stash branch [branch name]
 
 # BRANCH & MERGE
 ####  list your branches. a * will appear next to the currently active branch
@@ -67,4 +76,4 @@
 - git commit --amend -m "an updated commit message"
 
 # Deleting Branch
-- git branch -d <branch-name>
+- git branch -d [branch-name]
