@@ -26,6 +26,7 @@
 
 # Git log and diff
 
+- git log
 - git log --oneline
 - git diff
 - git diff --staged
@@ -79,13 +80,43 @@
 - git branch -d [branch-name]
 
 # Git Merge and Rebase
-- Main A -> B -> C -> D
+- Main A -> B -> C -> D ->Go Feature -> G
 - Feature -  E -> F
-- Merge A-> B-> C -> D ->E ->F ->G (G -> one extra commit for merge)
-- Rebase  A-> B-> C -> D ->E ->F
+- Merge A-> B-> C -> D ->E ->F ->G- > H (H -> one extra commit for merge)
+- Rebase  A-> B-> C -> D-> G ->E ->F
 
 # Git fetch and Pull
 - Fetch -> fetch show us the notification that is there any update is available on remote if branch is up to date the nothing will show on 'git fetch' cmd ( After taking fethc need to merge the changes )
 - Pull -> It will take the change and merge with it
 
 # .gitkeep -- create track of empty flder create a file  inside that folder
+git remote add [alias as origin] URL
+git add filename ( add specific file )
+git add . ( . means all files )
+git push -u origin develop ( used to push changes on develop -u -> --set-upstream )
+git checkout -b develop ( create a new branch with all checkout )
+git checkout master ( change current branch to master branch )
+git pull origin master ( taking lastest changes from master branch )
+git status ( to checck status )
+git pull ( get update in current remote branch )
+git pull origin branch_name (git chnaes in local acctive branch from remove branch_name )
+git stash
+git stash list
+git stash apply ( after apply the stash needs to remove )
+git stash pop/drop
+git branch ( all local branch )
+git branch -a ( all local branch )
+git diff ( to check the difference )
+git reset --hard HEAD~1 ( Removed the git commit 1 count from git )
+git commit --amend -m 'master2 commit' ( update the commit message)
+git rebase -i HEAD~number-of commit ( :wq! for save :qa! for exit )
+git config --global alias.<alias-name> '<git-command>' ( Make short alias )
+log --oneline --graph --decorate --all ( Report view braching )
+git mv old_directory/file.txt new_directory/new_file.txt (Show the status modified stage the we can commit direcly oterwise need to add file and shows the delted status as well )
+A fork in Git is a private replica of another user's repository.
+git commit --amend   ( To Add changes in last commit )
+git cherry-pick ( The command git cherry-pick allows you to choose and apply specific commits from one branch to another. )
+git cherry-pick --edit <commit>… ( for edit the commit message )
+git rm file_name ( after remove file we can directly commit from modified stage if i will delete directly then need to add then commit  )
+
+git restore --staged <file> ( It removes a specified file from the staging area, but keeps the changes in the working directory. (.dot, file, directory) )
