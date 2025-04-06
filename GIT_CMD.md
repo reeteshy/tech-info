@@ -1,5 +1,12 @@
 ## GIT HUM USED COMMAND (https://static.javatpoint.com/tutorial/git/download/Git%20Cheat%20Sheet.pdf)
 
+# Add SSh key
+## check ssh key exist
+- ls -al ~/.ssh (Check the directory exp - id_rsa and id_rsa.pub)
+- cat ~/.ssh/id_rsa.pub ( copy the ssh key if exist)
+
+
+
 # Get git config info
 
  - git config --list
@@ -28,6 +35,7 @@
 
 - git log
 - git log --oneline
+- git log --oneline --graph --decorate --all ( Report view braching )
 - git diff
 - git diff --staged
 
@@ -50,6 +58,8 @@
 
 # BRANCH & MERGE
 ####  list your branches. a * will appear next to the currently active branch
+- git branch
+####  list all branches local and remote
 - git branch
 ####  create a new branch at the current commit
 - git branch [branch-name]
@@ -90,9 +100,6 @@
 - Pull -> It will take the change and merge with it
 
 # .gitkeep -- create track of empty flder create a file  inside that folder
-git remote add [alias as origin] URL
-git add filename ( add specific file )
-git add . ( . means all files )
 git push -u origin develop ( used to push changes on develop -u -> --set-upstream )
 git checkout -b develop ( create a new branch with all checkout )
 git checkout master ( change current branch to master branch )
@@ -100,10 +107,6 @@ git pull origin master ( taking lastest changes from master branch )
 git status ( to checck status )
 git pull ( get update in current remote branch )
 git pull origin branch_name (git chnaes in local acctive branch from remove branch_name )
-git stash
-git stash list
-git stash apply ( after apply the stash needs to remove )
-git stash pop/drop
 git branch ( all local branch )
 git branch -a ( all local branch )
 git diff ( to check the difference )
@@ -111,7 +114,6 @@ git reset --hard HEAD~1 ( Removed the git commit 1 count from git )
 git commit --amend -m 'master2 commit' ( update the commit message)
 git rebase -i HEAD~number-of commit ( :wq! for save :qa! for exit )
 git config --global alias.<alias-name> '<git-command>' ( Make short alias )
-log --oneline --graph --decorate --all ( Report view braching )
 git mv old_directory/file.txt new_directory/new_file.txt (Show the status modified stage the we can commit direcly oterwise need to add file and shows the delted status as well )
 A fork in Git is a private replica of another user's repository.
 git commit --amend   ( To Add changes in last commit )
